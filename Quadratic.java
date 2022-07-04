@@ -16,11 +16,11 @@ public class Quadratic {
     }
     static void delta(int a, int b, int c){
         double delta = Math.pow(b, 2) - 4*a*c;
-        double root1 = ((-1)*b + Math.sqrt(delta))/(2*a);
-        double root2 = ((-1)*b - Math.sqrt(delta))/(2*a);
+        double root1 = ((-1)*b + Math.sqrt(delta)) / (2*a);
+        double root2 = ((-1)*b - Math.sqrt(delta)) / (2*a);
 
-        System.out.println("The value of root1 is "+root1);
-        System.out.println("The value of root2 is "+root2);
+        System.out.println("The value of root1 is :- "+root1);
+        System.out.println("The value of root2 is :- "+root2);
 
     }
 
