@@ -11,8 +11,8 @@ public class TwoDArray {
     System.out.print("Enter the length of  N cons:- ");
     int n = sc.nextInt();
     int a[][] = new int[m][n];
-    System.out.print("Enter "+m*n +" Elements to Store in Array :\n");
-      for( int i = 0; i< m; i++)
+    System.out.print("Enter " +m*n +" Elements to Store in Array :\n");
+      for( int i = 0; i < m; i++)
        {
         for (int j = 0; j < n; j++) {
             a[i][j] = sc.nextInt();
